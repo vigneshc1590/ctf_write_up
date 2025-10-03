@@ -8,7 +8,7 @@
 - foremost
 ## DESCRIPTION 
 
-Here is a file with another file hidden inside it. Can you extract it? [FILE] ("https://mega.nz/#!qbpUTYiK!-deNdQJxsQS8bTSMxeUOtpEclCI-zpK7tbJiKV0tXYY")
+Here is a file with another file hidden inside it. Can you extract it? [FILE]("https://mega.nz/#!qbpUTYiK!-deNdQJxsQS8bTSMxeUOtpEclCI-zpK7tbJiKV0tXYY")
 
 >***NOTE: I use wsl(Windows Sub system for linux)it's support most of the tools that's run in linux***
 
@@ -16,7 +16,7 @@ Here is a file with another file hidden inside it. Can you extract it? [FILE] ("
 Initial steps to find the file type by using `file` to see the image file from cli `eog` will help
 
 - I just download the [.jpeg]("https://mega.nz/#!qbpUTYiK!-deNdQJxsQS8bTSMxeUOtpEclCI-zpK7tbJiKV0tXYY") file from this link, and i just run like basic commands/tools Run **strings** and i get nothing.
-- And in generally Forensic challenges will hide the flag in the jpeg file , i order to find that need some tools we need like `steghide,zsteg` from linux and online website like *photo forensic(website)* and exiftools for metadata , and binwalk for scanning hidden files and folder in the source
+- And in generally Forensic challenges will hide the flag in the .jpeg/.wav/.mp4 file , i order to find that, we need some tools like `steghide,zsteg` from linux and online website like *photo forensic(website)* and exiftools for metadata , and binwalk for scanning hidden files and folder in the source
 - According to this challenges you need to use binwalk but my `suggestion is "foremost" file craving` it's extract the hidden file and .zip and other file from the source.
 - RUN `foremost <*.jpeg>` it will extract the file and folders in the seperate folder `output`
 - check the `output` folder you will get two image files.
