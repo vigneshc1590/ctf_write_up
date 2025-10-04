@@ -26,7 +26,7 @@ This isn't what I had in mind, when I asked someone to capture a flag... can you
 - `HINT=base64` 
 - **CTFlearn{example_flag_here}**
 
-# lasy approach
+# lazy approach
 - looking for base 64 pattern form the downloaded [File](https://mega.nz/#!3WhAWKwR!1T9cw2srN2CeOQWeuCm0ZVXgwk-E2v-TrPsZ4HUQ_f4)
 - using `Strings -n 10` or grep for `msg`
 - you will get a [data](https://www.base64encode.org/) to find a flag
@@ -38,4 +38,5 @@ This isn't what I had in mind, when I asked someone to capture a flag... can you
 >DON'T JUST RELY ON TOOLS SOMETIMES WE NEED TO MAKE A DIFFERENT APPROACH. AND LESS FAMILIAR IN SOME BASIC/FUNDAMENTAL TOOLS IS ALSO SLOW DOWN YOUR HACKING 
 
 ##                                                            HAPPY HACKING
+
 
