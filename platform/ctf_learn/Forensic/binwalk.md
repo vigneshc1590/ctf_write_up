@@ -15,7 +15,7 @@ Here is a file with another file hidden inside it. Can you extract it? [FILE](ht
 # SOLUTION
 Initial steps to find the file type by using `file` to see the image file from cli `eog` will help
 
-- I just download the [.jpeg]("https://mega.nz/#!qbpUTYiK!-deNdQJxsQS8bTSMxeUOtpEclCI-zpK7tbJiKV0tXYY") file from this link, and i just run like basic commands/tools Run **strings** and i get nothing.
+- I just download the [.jpeg](https://mega.nz/#!qbpUTYiK!-deNdQJxsQS8bTSMxeUOtpEclCI-zpK7tbJiKV0tXYY) file from this link, and i just run like basic commands/tools Run **strings** and i get nothing.
 - And in generally Forensic challenges will hide the flag in the .jpeg/.wav/.mp4 file , i order to find that, we need some tools like `steghide,zsteg` from linux and online website like *photo forensic(website)* and exiftools for metadata , and binwalk for scanning hidden files and folder in the source
 - According to this challenges you need to use binwalk but my `suggestion is "foremost" file craving` it's extract the hidden file and .zip and other file from the source.
 - RUN `foremost <*.jpeg>` it will extract the file and folders in the seperate folder `output`
@@ -33,3 +33,4 @@ Initial steps to find the file type by using `file` to see the image file from c
 >DON'T JUST RELY ON TOOLS SOMETIMES WE NEED TO MAKE A DIFFERENT APPROACH. AND LESS FAMILIAR IN SOME BASIC/FUNDAMENTAL TOOLS IS ALSO SLOW DOWN YOUR HACKING 
 
 ##                                                            HAPPY HACKING
+
